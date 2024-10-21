@@ -2,7 +2,7 @@ public class ele_count
 {
     public static void main(String[] args)
     {
-        int arr[]={1,2,3,4,4,3,2,1};
+        int arr[]={3,4,2,1,1,2,3,4};
         int arr1[]=new int[arr.length];
         int i,j;
         for(i=0;i<arr.length;i++)
@@ -26,7 +26,7 @@ public class ele_count
         {
             if(arr1[i]!=-1)
             {
-                System.out.println("Element: " + arr[i] + " | Frequency: " + arr1[i]);
+                System.out.println("element: "+arr[i]+"count :"+arr1[i]);
             }
         }
     }
